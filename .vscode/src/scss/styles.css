@@ -1,0 +1,214 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 3fr 11fr;
+      grid-template-columns: 3fr 11fr;
+  padding-top: 25px;
+  font-size: 16px;
+}
+
+main {
+  display: -ms-grid;
+  display: grid;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+  row-gap: 50px;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 20px;
+  top: 0px;
+  background-color: yellow;
+  -ms-grid-column: span 2;
+      grid-column-start: span 2;
+  background-color: white;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+header .logo {
+  font-size: 12px;
+  margin-left: 10px;
+  padding-top: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header ul li:not(:last-child) {
+  margin-right: 10px;
+}
+
+article img {
+  max-width: 100%;
+}
+
+.subnav {
+  position: fixed;
+  margin-top: 50px;
+}
+
+.subnav ul {
+  padding-right: 5px;
+}
+
+.subnav ul li {
+  margin-bottom: 10px;
+  margin-left: 10px;
+  font-size: 13px;
+}
+
+.subnav ul li a {
+  text-decoration: none;
+}
+
+.logo_sub {
+  font-size: 5px;
+  margin-left: 10px;
+  padding-top: 8px;
+}
+/*# sourceMappingURL=styles.css.map */

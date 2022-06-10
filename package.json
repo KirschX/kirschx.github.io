@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "dev": "tailwindcss build -i ./.vscode/src/tailwind.css -o ./public/tailwind.css",
+    "build": "NODE_ENV=production npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "postcss-cli": "^9.1.0",
+    "tailwindcss": "^3.0.24"
+  }
+}
